@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh 'docker version >>~/test.txt'
+                sh 'git version >>~/test.txt'
                 sh 'echo \'OK\''
             }
         }
